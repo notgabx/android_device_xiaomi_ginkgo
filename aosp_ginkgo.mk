@@ -29,6 +29,10 @@ IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Maintainer
+ROHIE_MAINTAINER := Pascoato
+ROHIE_BUILD_TYPE := OFFICIAL
+
 # Inherit some common RohieOS stuff
 TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/aosp/config/common.mk)
